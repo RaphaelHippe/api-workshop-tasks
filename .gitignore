@@ -1,0 +1,10 @@
+# all folders with solution_ in the name
+**/solution_*/
+
+# node_modules
+node_modules/
+
+package-lock.json
+
+
+**/*.json
