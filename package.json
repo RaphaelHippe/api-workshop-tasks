@@ -1,0 +1,15 @@
+{
+  "name": "api-schulung",
+  "version": "1.0.0",
+  "description": "API Schulung von TAKT.ing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Hippe <raphael@takting.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "qs": "^6.13.0"
+  }
+}

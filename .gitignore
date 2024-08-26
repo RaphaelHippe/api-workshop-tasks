@@ -7,4 +7,5 @@ node_modules/
 package-lock.json
 
 
-**/*.json
+# all json files in task folders
+**/task_*/**/*.json
