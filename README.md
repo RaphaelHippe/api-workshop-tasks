@@ -19,24 +19,31 @@ The project is divided into multiple tasks with increasing difficulty and functi
 
 ### Task 1
 Function calling
+run with: `node ./task_01/index.js`
 
 ### Task 2
 JSON manipulation
+run with: `node ./task_02/index.js`
 
 ### Task 3
 Understanding asynchronous programming using Promises.
+run with: `node ./task_03/index.js`
 
 ### Task 4
 Making first HTTP requests using Axios
+run with: `node ./task_04/index.js`
 
 ### Task 5
 Making first HTTP requests using Axios and using OAuth to TAKT.ing API
+run with: `node ./task_05/index.js`
 
 ### Task 6
 Organising our code into different files. Increasing Maitainability. 
+run with: `node ./task_06/index.js`
 
 ### Task 7
 Storing API results in JSON files for further use in the future
+run with: `node ./task_07/index.js`
 
 ## License
 
