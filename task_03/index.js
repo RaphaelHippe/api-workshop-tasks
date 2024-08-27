@@ -26,7 +26,9 @@ Promise.all(promises).then((results) => {
     }
 });
 
-// Write a function that returns a promise that resolves after 3 seconds. The function should take two numbers as arguments and return a promise that resolves with the product of the two numbers after 3 seconds.
+// Write a function that returns a promise that resolves after 3 seconds. 
+// The function should take two numbers as arguments and return a promise that resolves 
+// with the product of the two numbers after 3 seconds.
 // START WRITING CODE HERE
 
 function getProductIn3Seconds() {
@@ -41,7 +43,8 @@ const products_to_be_calculated = [
     [5, 6]
 ];
 
-// Calculate all products of products_to_be_calculated using getProductIn3Seconds and print the results.
+// Calculate all products of products_to_be_calculated using getProductIn3Seconds and 
+// print the results.
 // START WRITING CODE HERE
 
 // STOP WRITING CODE HERE

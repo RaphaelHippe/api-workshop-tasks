@@ -5,7 +5,8 @@ let c = a + b
 console.log(a, '+', b, '=', c)
 
 
-// Task 01: Write a function that takes two numbers as arguments and returns their sum.
+// Task 01: Write a function that takes two numbers as arguments
+// and returns their sum.
 
 // START WRITING CODE HERE
 function sum() {

@@ -1,12 +1,17 @@
 const axios = require('axios');
 
 const getToken = require('./oauth.js');
-
+const https = require('https');
 
 class Client {
     constructor() {
+        this.agent = new https.Agent({  
+            rejectUnauthorized: false
+          });
+
         this.client = axios.create({
-            baseURL: 'https://api.takting.com/api-live/API/public/customer-api/v1/'
+            baseURL: 'https://api.takting.com/api-live/API/public/customer-api/v1/',
+            httpsAgent: this.agent
         });
     }
 

@@ -22,3 +22,12 @@ client.get('projects/1').then((project) => {
 }).catch((error) => {
     console.error(error);
 });
+
+// use the json manager to read trains JSON files and fire update requests to update the trains
+// according to the JSON files
+// Hint: change the JSON file before sending the update request
+// How could you test if the data was updated correctly?
+
+// START WRITING CODE HERE
+
+// STOP WRITING CODE HERE

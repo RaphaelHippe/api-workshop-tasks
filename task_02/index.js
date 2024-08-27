@@ -19,7 +19,8 @@ delete project.description;
 console.log(project.id, project.name, project.description, project.takt_time);
 
 
-// Write a function that takes an object, a key, and a value as arguments and sets the value of the key in the object.
+// Write a function that takes an object, a key, and a value as arguments and 
+// sets the value of the key in the object.
 // START WRITING CODE HERE
 function update() {
     return 'not implemented';
