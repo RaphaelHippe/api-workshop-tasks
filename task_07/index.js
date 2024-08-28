@@ -3,7 +3,7 @@ const JSONManager = require('./json_manager.js');
 const client = new Client();
 const json_manager = new JSONManager();
 
-client.get('projects/1').then((project) => {
+client.get('projects/2864').then((project) => {
     json_manager.write('project.json', project);
     client.get(`projects/${project.id}/trains`).then((trains) => {
         json_manager.write('trains.json', trains);
